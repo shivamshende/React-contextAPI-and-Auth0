@@ -27,7 +27,7 @@
    - [How to Contribute](#how-to-contribute)
 </details>
 
-# React Context API Integration with Auth0
+# About the Project
 
 This project introduces users to the intricacies of integrating authentication functionalities using the Auth0 platform with React's Context API for state management.
 
