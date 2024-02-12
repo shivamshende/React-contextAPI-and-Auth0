@@ -1,3 +1,32 @@
+<details open>
+  <summary>Table of Contents</summary>
+
+1. [About the Project](#about-the-project)
+   - [Description](#description)
+   - [View Project](#view-project)
+
+2. [Getting Started](#getting-started)
+   - [React + Vite Setup](#react--vite-setup)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+
+3. [Folder Structure](#folder-structure)
+
+4. [Skills](#skills)
+
+5. [Help / Troubleshooting](#help--troubleshooting)
+   - [Common Issues and Solutions](#common-issues-and-solutions)
+   - [Getting Further Assistance](#getting-further-assistance)
+   - [Additional Tips](#additional-tips)
+
+6. [Author / Contributors](#author--contributors)
+   - [Contact](#contact)
+
+7. [License](#license)
+   - [About the License](#about-the-license)
+   - [How to Contribute](#how-to-contribute)
+</details>
+
 # React Context API Integration with Auth0
 
 This project introduces users to the intricacies of integrating authentication functionalities using the Auth0 platform with React's Context API for state management.
@@ -72,16 +101,98 @@ npm install
 
 npm run dev
 
-## Folder Structure
+## Skills
 
-The project is organized as follows:
+This project showcases the use of various technologies and skills, including:
 
-project-folder/
-│
-├── src/
-│   ├── App.css
-│   ├── LoginLogout.jsx
-│   ├── Profile.jsx
-│   └── main.jsx
-│
-└── Additional configuration files for react
+- **React.js:** Leveraging the power of React for building dynamic and interactive user interfaces.
+
+- **React Hooks:** Specifically, the useAuth0 hook from the '@auth0/auth0-react' library is used in both the 'LoginLogout' and 'Profile' components. This hook provides authentication-related functionality to these components.
+
+- **Context API:** The project utilizes the Context API in React for managing authentication state. This is evident in the 'LoginLogout' component where it mentions the utilization of Context API to manage authentication.
+
+- **Authentication and Authorization:** The project implements user authentication and authorization using Auth0. Auth0 provides authentication as a service, allowing developers to easily add authentication features to their applications.
+
+- **Vite:** Employing Vite as the build tool for fast and efficient development and bundling.
+
+- **Tailwind CSS:** Styling the application using the utility-first CSS framework Tailwind CSS for a responsive and modern design.
+
+- **npm:** Managing project dependencies and scripts using the Node Package Manager.
+
+- **Node.js:** Providing the runtime environment for building and running JavaScript applications.
+
+- **Git:** Version control and collaboration using Git for tracking changes and managing project history.
+
+## Help / Troubleshooting
+
+If you encounter any issues while setting up or running the project, consider the following advice for common problems:
+
+### Common Issues and Solutions
+
+1. **Node.js and npm Version:**
+   - Ensure you have a compatible version of Node.js installed. This project is designed to work with Node.js version 14.x or later. You can check your Node.js version by running:
+     ```bash
+     node -v
+     ```
+   Update Node.js if needed: [Download Node.js](https://nodejs.org/)
+
+2. **Installation Failures:**
+   - If you face issues during the installation of dependencies, try running:
+     ```bash
+     npm install --legacy-peer-deps
+     ```
+   This can sometimes resolve compatibility problems with peer dependencies.
+
+3. **Port Already in Use:**
+   - If the development server fails to start due to a port conflict, you can specify a different port using:
+     ```bash
+     npm run dev -- --port <desired-port>
+     ```
+
+### Getting Further Assistance
+
+If you encounter issues that are not covered here or need additional help, consider the following steps:
+
+1. **Search Existing Issues:**
+   - Check the project's [GitHub issues](https://github.com/your-username/your-repository/issues) to see if someone else has experienced a similar problem.
+
+2. **Create a New Issue:**
+   - If your issue is not addressed, feel free to [create a new issue](https://github.com/your-username/your-repository/issues/new) with detailed information about the problem, including error messages and steps to reproduce.
+
+3. **Community Support:**
+   - Reach out to the community on platforms such as [Stack Overflow](https://stackoverflow.com/) for additional support.
+
+Remember, providing detailed information about the problem you are facing will greatly assist in finding a solution.
+
+### Additional Tips
+
+- **Clearing the npm Cache:**
+  If you encounter persistent issues, consider clearing the npm cache with:
+  ```bash
+  npm cache clean -f
+
+## Author / Contributors
+
+This project is maintained by [Shivam Shende].
+
+### Contact
+
+For inquiries, suggestions, or collaboration opportunities, feel free to reach out to the author:
+
+- **Your Name:** Shivam Shende
+  - GitHub: https://github.com/shivamshende
+  - Email: shivamshende200@gmail.com
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for the full license text.
+
+### About the License
+
+The MIT License is a permissive open-source license that allows you to freely use, modify, and distribute this software, subject to the conditions stated in the [LICENSE.md](LICENSE.md) file.
+
+### How to Contribute
+
+If you're interested in contributing to the project, please check the [Contributing Guidelines](CONTRIBUTING.md) for details on how to get involved.
+
+Thank you for adhering to the terms of the license!
