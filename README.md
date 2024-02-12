@@ -10,8 +10,6 @@
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
 
-3. [Folder Structure](#folder-structure)
-
 4. [Skills](#skills)
 
 5. [Help / Troubleshooting](#help--troubleshooting)
