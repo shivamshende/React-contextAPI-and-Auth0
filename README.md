@@ -3,7 +3,7 @@
 
 1. [About the Project](#about-the-project)
    - [Description](#description)
-   - [View Project](#view-project)
+   - [Project Status](#project-status)
 
 2. [Getting Started](#getting-started)
    - [React + Vite Setup](#react--vite-setup)
@@ -57,9 +57,9 @@ Explore the following key features covered in this project:
 
 By engaging with this project, developers can deepen their understanding of integrating Auth0 authentication with React applications and gain valuable insights into building secure and user-friendly authentication systems.
 
-## View Project
+## Project Status
 
-[Click here to view the project](your-project-link)
+The live link to the project is currently not available. However, you can still run the project locally on your machine.
 
 # Getting Started
 
