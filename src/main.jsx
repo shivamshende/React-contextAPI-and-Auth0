@@ -5,7 +5,6 @@ import Profile from './Profile';
 import LoginLogout from './LoginLogout';
 import './App.css';
 
-// Determine the base URL based on the environment
 const baseUrl = process.env.NODE_ENV === 'production' ? "https://shivamshende.github.io" : "http://localhost:5173";
 
 ReactDOM.createRoot(document.getElementById('root')).render(

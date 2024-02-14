@@ -3,7 +3,7 @@
 
 1. [About the Project](#about-the-project)
    - [Description](#description)
-   - [Project Status](#project-status)
+   - [Project Access](#project-access)
 
 2. [Getting Started](#getting-started)
    - [React + Vite Setup](#react--vite-setup)
@@ -57,7 +57,7 @@ Explore the following key features covered in this project:
 
 By engaging with this project, developers can deepen their understanding of integrating Auth0 authentication with React applications and gain valuable insights into building secure and user-friendly authentication systems.
 
-## Project Status
+## Project Access
 
 The live link to the project is currently not available. However, you can still run the project locally on your machine.
 
@@ -183,11 +183,11 @@ For inquiries, suggestions, or collaboration opportunities, feel free to reach o
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for the full license text.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for the full license text.
 
 ### About the License
 
-The MIT License is a permissive open-source license that allows you to freely use, modify, and distribute this software, subject to the conditions stated in the [LICENSE.md](LICENSE.md) file.
+The MIT License is a permissive open-source license that allows you to freely use, modify, and distribute this software, subject to the conditions stated in the [LICENSE](LICENSE) file.
 
 ### How to Contribute
 
