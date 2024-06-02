@@ -58,6 +58,8 @@ By engaging with this project, developers can deepen their understanding of inte
 
 The live link to the project is currently not available. However, you can still run the project locally on your machine.
 
+Our live app not working for some reason. Watch demo video -  https://youtu.be/_tcD9ziL8gE?si=xOa5GqEfgnWEefzP
+
 # Getting Started
 
 ## React + Vite Setup

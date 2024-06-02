@@ -13,8 +13,10 @@ const Profile = () => {
     isAuthenticated && (
       <div className="flex flex-col items-center justify-center mt-5 text-white">
         <img className="mb-5 " src={user.picture} alt={user.name} />
-        <h2>Welcome {user.name} !</h2>
-        <p>{user.email}</p>
+        <h2 className="text-2xl font-semibold text-yellow-500">Welcome {user.name} !</h2>
+        <p><span className="font-bold">Your Email Id: </span>{user.email}</p>
+        <p><span className="font-bold">Last update: </span>{user.updated_at
+        }</p>
       </div>
     )
   );
